@@ -116,4 +116,3 @@ Router.route('/users/:id',{where: 'server'})
         this.response.setHeader('Content-Type','application/json');
         this.response.end(JSON.stringify(response));
     });
-  }
